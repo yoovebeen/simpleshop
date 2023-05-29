@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+        .navibar{
+            height: 60px;
+        }
+        .navibar #logo{
+            line-height: 60px;;
+        }
+        .navibar #logo img{
+            vertical-align: middle;
+            margin-left: 30px;
+        }
+        .navibar #menu{
+            float: right;
+            list-style: none;
+            margin-right: 30px;
+        }
+        .navibar #menu li{
+            float: left;
+            margin-left: 30px;
+            line-height: 60px;
+        }
+        .navibar #menu li a{
+            color: #545454;
+            font-size: 13px;
+            text-decoration: none;
+            font-weight: thin;
+        }
+
+        .header{
+            height: 450px;
+            background-image: url("hero_header.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .products h3{
+            font-size: 24px;
+            color: #545454;
+            margin-top: 60px;
+            margin-bottom: 60px;
+            text-align: center;
+        }
+        .product-list{
+            width: 735px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .product{
+            text-align: center;
+            width: 225px;
+            display: block;
+            color: #545454;
+            font-size: 16px;
+            text-decoration: none;
+            float: left;
+            margin-left: 10px;
+            margin-right: 10px;
+            margin-bottom: 80px;
+        }
+        .product-name{
+            margin-top: 20px;
+            margin-bottom: 4px;
+        }
+        .clearfix{
+            clear: both;
+        }
+
+        .footer{
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 80px;
+        }
+        .footer a{
+            margin-left: 10px;
+            margin-right: 10px;
+            text-decoration: none;
+        }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+
+    <title>SimpleShop</title>
+</head>
+
+<body>
+    <div class="navibar">
+        <a href="#" id="logo">
+        <img src="logo.png" height="20" alt="logo">
+        </a>
+
+        <ul id="menu">
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Cart</a></li>
+            <li><a href="#">Login</a></li>
+        </ul>
+    </div>
+
+    <div class="header"></div>
+
+    <div class="products">
+       <h3>Our New Products</h3>
+
+            <div class="product-list">
+                <a href="#" class="product">
+                <img src="sunglasses.jpg"  width="225" alt="sunglasses">
+                <div class="product-name">Sunglasses</div>
+                <div class="product-price">49,000</div> 
+                </a>
+
+                <a href="#" class="product">
+                <img src="tassel_loafer.jpg"  width="225" alt="tassel_loafer">
+                <div class="product-name">Tassel Loafer</div>
+                <div class="product-price">89,000</div> 
+                </a>
+
+                <a href="#" class="product">
+                <img src="beige_bag.jpg"  width="225" alt="beige_bag">
+                <div class="product-name">Beige Bag</div>
+                <div class="product-price">69,000</div> 
+                </a>
+            </div>
+
+            <div class="product-list">
+                <a href="#" class="product">
+                <img src="sneakers.jpg"  width="225" alt="sneakers">
+                <div class="product-name">Sneakers</div>
+                <div class="product-price">79,000</div> 
+                </a>
+
+                <a href="#" class="product">
+                <img src="slippers.jpg"  width="225" alt="slippers">
+                <div class="product-name">Slippers</div>
+                <div class="product-price">29,000</div> 
+                </a>
+
+                <a href="#" class="product">
+                <img src="wrist_watch.jpg"  width="225" alt="wrist_watch">
+                <div class="product-name">Wrist Watch</div>
+                <div class="product-price">99,000</div> 
+                </a>
+            </div>
+
+            <div class="product-list">
+                <a href="#" class="product">
+                <img src="fedora_hat.jpg"  width="225" alt="fedora_hat">
+                <div class="product-name">Fedora Hat</div>
+                <div class="product-price">39,000</div> 
+                </a>
+
+                <a href="#" class="product">
+                <img src="classic_loafer.jpg"  width="225" alt="classic_loafer">
+                <div class="product-name">Classic Loafer</div>
+                <div class="product-price">99,000</div> 
+                </a>
+
+                <a href="#" class="product">
+                <img src="pink_bag.jpg"  width="225" alt="pink_bag">
+                <div class="product-name">Pink Bag</div>
+                <div class="product-price">79,000</div> 
+                </a>
+                <div class="clearfix"></div>
+            </div>
+    </div>
+
+    <div class="footer">
+        <a href="http://facebook.com">
+            <img src="facebook.png" height="20" alt="facebook">
+        </a>
+        <a href="http://instagram.com">
+            <img src="instagram.png" height="20" alt="instagram">
+        </a>
+        <a href="http://twitter.com">
+            <img src="twitter.png" height="20" alt="twitter">
+        </a>
+    </div>
+    
+</div>
+</body>
+
+</html>
